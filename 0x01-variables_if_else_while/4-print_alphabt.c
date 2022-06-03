@@ -9,7 +9,7 @@ int main(void)
 char a;
 for (a = 'a'; a <= 'z'; a++)
 {
-if (a != 101 || a != 113)
+if (a != 'q' && a != 'e')
 {
 putchar(a);
 }
