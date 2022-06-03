@@ -13,7 +13,7 @@ putchar(a);
 }
 for (a = 'A'; a <= 'Z'; a++)
 {
-puchar(a);
+putchar(a);
 }
 putchar('\n');
 }
