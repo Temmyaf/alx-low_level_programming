@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * main - Check description
  * Description: It prints the word _putchar, followed by a new line.
