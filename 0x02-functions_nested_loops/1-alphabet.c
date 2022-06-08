@@ -1,8 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main- check the code
- * Returns: Always 0.
  * print_alphabet-  print alphabets.
  * Returns nothing.
  */
@@ -17,9 +15,14 @@ putchar(i);
 }
 putchar('\n');
 }
-
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 print_alphabet();
 return (0);
 }
+
