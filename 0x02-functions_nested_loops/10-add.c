@@ -3,11 +3,9 @@
  * add()- adds two numbers
  * @a: type int
  * @b: type int
- * @c: type int
- * Return: c
+ * Return: sum of two numbers.
  */
 int add(int a, int b)
 {
-c = a + b;
-return (c);
+return (a + b);
 }
