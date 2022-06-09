@@ -4,7 +4,7 @@
  *
  *Return: 0
  */
-int print_numbers(void)
+void print_numbers(void)
 {
 for (int i = 48; i <= 57; i++)
 {
