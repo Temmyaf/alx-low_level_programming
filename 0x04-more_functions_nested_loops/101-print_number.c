@@ -17,7 +17,7 @@ void print_number(int n)
 		a = -a;
 		_putchar('-');
 	}
-	while (n / dividor >= 10)
+	while (n / factor >= 10)
 		factor = factor * 10;
 	limit = factor;
 	if (n < 10 && n != 0)
