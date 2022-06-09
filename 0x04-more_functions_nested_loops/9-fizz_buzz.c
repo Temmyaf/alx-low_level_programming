@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - fizzbuzz.
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
@@ -9,7 +9,7 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 )
+		if (i % 3 == 0)
 		{
 			printf("Fizz");
 		}
