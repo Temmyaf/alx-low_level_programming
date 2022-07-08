@@ -56,6 +56,7 @@ void print_all(const char * const format, ...)
 void (*get_func(char identifier, struct format_struct *fmt_arr))(va_list *)
 {
 	int i = 0;
+
 	while (fmt_arr[i].format)
 	{
 		if (fmt_arr[i].format == identifier)
